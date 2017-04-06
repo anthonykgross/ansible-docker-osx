@@ -1,0 +1,5 @@
+- name: Uninstall docker
+  hosts: localhost
+  connection: local
+  roles:
+    - {role: anthonykgross.docker-osx-uninstall}
